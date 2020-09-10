@@ -25,5 +25,3 @@ with open(filename, 'a') as file_object:    # NOTE: use 'w' - to override, 'a' -
     file_object.write("I love programming.\n")
     file_object.write("I love python.\n")
 
-
-
