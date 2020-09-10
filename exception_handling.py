@@ -32,5 +32,3 @@ except Exception as err:
     print(err)
 
 print("Reading file is completed")
-
-
