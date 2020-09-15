@@ -6,14 +6,12 @@ from selenium.webdriver.common.keys import Keys
 # locator: xpath(querying), cssSelector(querying) can be customized using tags and attributes
 # locators on html: id, name, link_name, partial_link_name, class_name.
 
-
 # Google Search Scenario:
 # 1. Open the browser, launch the website google.com (Given condition in Gherkin Scenario.)
 # 2. Type 'selenium python' in the search and hit Enter (Actions - When.)
 # 3. Verify the result is more then 20 million.(Test here, check point - Then.)
 # 4. Verify that it takes less than a second for the search.(Test here, check point - Then.)
 # 5. Close the browser.
-
 
 driver = webdriver.Chrome()  # Start the browser.
 driver.get("https://google.com")
