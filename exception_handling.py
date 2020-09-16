@@ -15,6 +15,7 @@ def division(a, b):
         print("finally block is executed.")
 
 
+# Unit Test For Automation Scripts.
 division(45, 15)
 division(45, 0)  # NOTE:exception handling expected.
 division(45, 10)
